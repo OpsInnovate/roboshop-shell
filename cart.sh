@@ -9,6 +9,6 @@ cd /app
 unzip /tmp/cart.zip
 npm install
 #restart service
-systemctl daemon reload
+systemctl daemon-reload
 systemsctl enable cart
 systemctl start cart
